@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\New_Version">
+      <UniqueIdentifier>{89fbcf76-5265-4bc2-b0eb-08870434d50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\New_Version">
+      <UniqueIdentifier>{648f1a58-3b56-4f98-aae2-4c187b85cda4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Old_Version">
+      <UniqueIdentifier>{7310a498-2886-4990-8f0e-a24e8fae1dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Old_Version">
+      <UniqueIdentifier>{ad64e0fe-513c-4e65-80d5-df25150ada1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyFunc.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="New_Camera.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="New_Game.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="New_Map.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="New_MapChip.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="New_Player.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="New_PlayerMgr.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="New_Spring.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="New_SpringMgr.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="ActRecord.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCamera.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseScene.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeItem.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeItemMgr.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="CollectItem.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="CollectItemMgr.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Constants.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="easing.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectMgr.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Emitter.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyMgr.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorAndWall.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyEnemy.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="GoalEffect.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="GrobalGraphs.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="HashiTrans.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpEnemy.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="MuraEffect.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="OgawaEffect.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMgr.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Record.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultDraw.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEmitter.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="StageMgr.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="StagesInfo.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="StopEnemy.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="TransMgr.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="UsersInput.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="New_ItemMgr.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="New_ResultMgr.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="New_Select.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="New_Goal.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice_Game.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="New_ResultDraw.cpp">
+      <Filter>ソース ファイル\New_Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>ソース ファイル\Old_Version</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="New_Game.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="easing.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="New_Camera.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="New_Game.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="New_Map.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="New_MapChip.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="New_Player.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="New_PlayerMgr.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="New_Spring.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="New_SpringMgr.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFunc.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="ActRecord.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCamera.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="CamAccessor.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeItem.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeItemMgr.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="CollectItem.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="CollectItemMgr.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="easing.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectMgr.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Emitter.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyMgr.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorAndWall.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyEnemy.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Fps.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="GoalEffect.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="GrobalGraphs.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="HashiTrans.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpEnemy.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="MuraEffect.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="OgawaEffect.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMgr.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Record.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultDraw.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChanger.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEmitter.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="StageMgr.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="StageMgrAccessor.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="StagesInfo.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="StopEnemy.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="TransMgr.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="UsersInput.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>ヘッダー ファイル\Old_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="New_ItemMgr.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="New_ResultMgr.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="New_Select.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="New_Goal.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Practice_Game.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+    <ClInclude Include="New_ResultDraw.h">
+      <Filter>ヘッダー ファイル\New_Version</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+#pragma once
+
+enum SEName { SE_SELECT, SE_DECISION, SE_GROUND, SE_GLASS,SE_CHAIN,SE_GET,SE_GOAL,SE_DEAD,SE_CANCEL,SE_JUMP,SE_DROPEEFECT };
+enum BGMName{BGM_GAME,BGM_EXTRA};
+
+void LoadSound();
+void PlaySE(SEName SE);
+void PlayBGM(BGMName BGM);
+void StopBGM(BGMName BGM);
